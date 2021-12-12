@@ -99,7 +99,7 @@ const FormInput = ({ id, type, closeChange }) => {
     const onFinishFailed = (errorInfo) => {
         console.log("Failed:", errorInfo);
     };
-    const onClose = () => {
+    const onCancel = () => {
         form.resetFields();
     };
 
@@ -178,7 +178,7 @@ const FormInput = ({ id, type, closeChange }) => {
 
                 <Form.Item {...tailLayout} style={{ marginBottom: '0' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-                        <Button style={{ width: '40%' }} htmlType="button" onClick={onClose}>
+                        <Button style={{ width: '40%' }} htmlType="button" onClick={onCancel}>
                             Cancel
                         </Button>
                         <Button
