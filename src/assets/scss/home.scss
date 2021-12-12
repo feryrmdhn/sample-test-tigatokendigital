@@ -1,0 +1,120 @@
+.container {
+    margin: 0 50px;
+    padding: 70px 0;
+    .action-wrapper {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        .searching {
+            width: 300px;
+            .ant-input:hover {
+                border-color: #46aa97;
+            }
+            .ant-input:focus {
+                border-color: #46aa97;
+            }
+        }
+        .ant-input-search-button:hover, .ant-input-search-button:focus {
+            border-color: #46aa97;
+        }
+        .right-main-action {
+            width: 200px;
+            display: flex;
+            justify-content: space-between;
+            .secondary:hover {
+                border-color: #46aa97;
+                color: #46aa97;
+            }
+            .secondary:focus {
+                border-color: #46aa97;
+                color: #46aa97;
+            }
+            .primary {
+                background: #46aa97;
+                border-color: #46aa97;
+                color: #fff;
+            }
+            .primary:hover {
+                background: #58c2ae;
+                border-color: #58c2ae;
+            }
+        }
+    }
+    .table-wrapper {
+        margin-top: 50px;
+        padding: 15px;
+        border: 1px solid #d1d1d1;
+        border-radius: 12px;
+        .table {
+            width: 100%;
+            .table-head {
+                border-bottom: 1px solid #4e4e4e;
+                height: 50px;
+                text-align: left;
+                tr {
+                    th {
+                        width: 100px;
+                    }
+                }
+            }
+            .row-base-data {
+                border-bottom: 1px solid #4e4e4e;
+                td {
+                    padding: 15px 0;
+                    text-align: left;
+                    .base-image {
+                        width: 170px;
+                        .images {
+                           .ant-image-img {
+                               height: 85px;
+                               border-radius: 100%;
+                           }
+                        }
+                        .images:hover {
+                            cursor: pointer;
+                        }
+                    }
+                    .base-table-action {
+                        width: 220px;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .active-status {
+                        width: 150px;
+                        background: #58c966;
+                        border-radius: 12px;
+                        color: #fff;
+                        text-align: center;
+                    }
+                    .nonactive-status {
+                        width: 150px;
+                        background: #9d9d9d;
+                        border-radius: 12px;
+                        color: #fff;
+                        text-align: center;
+                    }
+                    .primary {
+                        background: #46aa97;
+                        border-color: #46aa97;
+                        color: #fff;
+                    }
+                    .primary:hover {
+                        background: #58c2ae;
+                        border-color: #58c2ae;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ant-modal-confirm-btns {
+    .ant-btn-primary {
+        background: #46aa97;
+        border-color: #46aa97;
+    }
+    .ant-btn-primary:hover {
+        background: #58c2ae;
+        border-color: #58c2ae;
+    }
+}

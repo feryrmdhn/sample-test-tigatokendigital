@@ -1,0 +1,43 @@
+//------------Tablet size------------
+@media all and (max-width: 1024px) {
+    .container {
+        .table-wrapper {
+            overflow-x: scroll;
+            .table {
+                .row-base-data {
+                    td {
+                        .base-image {
+                            .images {
+                                img {
+                                    height: 70px !important;
+                                }
+                            }
+                        }
+                        .active-status, .nonactive-status {
+                            width: 115px;
+                            margin-right: 15px;
+                        }
+                        .base-table-action {
+                            width: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//------------Mobile size------------
+@media all and (max-width: 670px) {
+    .container {
+        margin: 0 35px;
+        .action-wrapper {
+            .searching {
+                width: 200px;
+            }
+            .right-main-action {
+                width: 165px;
+            }
+        }
+    }
+}

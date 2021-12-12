@@ -1,0 +1,21 @@
+.header {
+    position: absolute;
+    width: 100%;
+    padding: 20px 50px;
+    background-image: linear-gradient(to bottom right, #06a0c6, #6bb07a);
+    .title {
+        margin: 0;
+        display: flex;
+        justify-content: left;
+        color: #fff;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+}
+
+//------------Mobile size------------
+@media all and (max-width: 670px) {
+    .header {
+        padding: 20px 35px;
+    }
+}
