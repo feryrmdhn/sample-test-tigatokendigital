@@ -81,16 +81,16 @@ const FormInput = ({ id, type, closeChange }) => {
     }
 
     //-------------------------Submit Add/Edit Data--------------------------
-    const onFinish = async (values) => {
+    const onFinish = (values) => {
         let data = { ...values, picture, expiredAt }
         setLoading(true)
         if (type === "add") {
-            await dispatch(addDataProducts(data))
+            dispatch(addDataProducts(data))
             form.resetFields()
             setPicture([])
             setExpiredAt("")
         } else {
-            await dispatch(updateDataProducts(id, data))
+            dispatch(updateDataProducts(id, data))
             closeChange(false)
         }
         setLoading(isLoading)

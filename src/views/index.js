@@ -48,8 +48,8 @@ const Home = () => {
             title: 'Apakah anda yakin ingin menghapus?',
             icon: <QuestionCircleOutlined style={{ color: 'red' }} />,
             content: '',
-            async onOk() {
-                await dispatch(deleteProducts(id))
+            onOk() {
+                dispatch(deleteProducts(id))
                 dispatch(getAllProducts())
             },
             onCancel() {
