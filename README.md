@@ -10,7 +10,7 @@ In the project directory, you can run:
 
 ### `git init`
 ### `git clone https://github.com/feryramadhan02/tigatokendigital.git`
-### `yarn add react-scripts`
+### `yarn install` | `yarn add react-scripts`
 ### `yarn start`
 
 ## Technology used :
