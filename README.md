@@ -2,7 +2,8 @@
 
 # Test Tiga Token Digital
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br/>
+The feature is simple crud data in the form, and also there is input file with base64 config
 
 ## Available Scripts
 
